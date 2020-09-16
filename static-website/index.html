@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head>
+  <title>Backend Boilerplate</title>
+  <link rel="stylesheet" type="text/css" href="assets/main.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="assets/apple-touch-icon.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="assets/favicon-32x32.png"
+  />
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="assets/favicon-16x16.png"
+  />
+  <link rel="manifest" href="assets/site.webmanifest" />
+  <link
+    rel="mask-icon"
+    href="assets/safari-pinned-tab.svg"
+    color="#5bbad5"
+  />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+</head>
+<body>
+  <section class="wrapper">
+    <img class="circle" href="assets/image/circle.svg" />
+    <svg
+      class="LandingViz__svgViewBox--3fry2 circle"
+      viewBox="0 0 714.4866385372715 500"
+    >
+      <filter id="neon">
+        <feFlood
+          flood-color="rgb(255,255,255)"
+          flood-opacity="0.3"
+          in="SourceGraphic"
+        />
+        <feComposite operator="in" in2="SourceGraphic" />
+        <feGaussianBlur stdDeviation="14" />
+        <feComponentTransfer result="glow1">
+          <feFuncA type="linear" slope="2" intercept="0" />
+        </feComponentTransfer>
+        <feMerge>
+          <feMergeNode in="glow1" />
+          <feMergeNode in="SourceGraphic" />
+        </feMerge>
+      </filter>
+      <defs>
+        <radialGradient
+          id="gradient1"
+          cx="0.5"
+          cy="0.5"
+          r="1.0"
+          fx="0.95"
+          fy="0.6089107016812197"
+        >
+          <stop offset="0%" stop-color="#aca9a9"></stop>
+          <stop offset="50%" stop-color="#d3d2d2"></stop>
+          <stop offset="100%" stop-color="#ffffff"></stop>
+        </radialGradient>
+      </defs>
+      <path
+        filter="url(#neon)"
+        fill="url(#gradient1)"
+        id="path1"
+        d="M322.2-192.4C380.8-145.3,415-74.2,415,1c0,75.2-34.1,146.3-92.8,193.4c-29.1,23.4-62.5,39.6-98.8,48.3c-20.8,5-41.6,7.2-62.9,7.9c-15.8,0.5-303.2,0.5-318.9,0c-21.3-0.7-42.1-2.9-62.9-7.9c-36.3-8.7-69.7-24.9-98.8-48.3C-378.8,147.3-413,76.2-413,1c0-75.2,34.1-146.3,92.8-193.4c29.1-23.4,62.5-39.6,98.8-48.3c20.8-5,41.6-7.2,62.9-7.9c15.8-0.5,303.2-0.5,318.9,0c21.3,0.7,42.1,2.9,62.9,7.9C259.7-231.9,293-215.8,322.2-192.4z"
+        style="transform: translate(571.589px, 350px) scale(1);"
+      ></path>
+    </svg>
+    <div class="header">
+      <svg
+        width="40"
+        height="26"
+        viewBox="0 0 40 26"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M37.3186 12.874C37.3186 7.13072 32.6376 2.46833 26.8713 2.46833H12.9335C7.16731 2.46833 2.48629 7.13072 2.48629 12.874C2.48629 18.6173 7.16731 23.2797 12.9335 23.2797H26.8713C32.6376 23.2797 37.3186 18.6173 37.3186 12.874ZM12.9335 0H26.8713C30.3214 0 33.5689 1.33903 36.0147 3.76702C38.4605 6.20308 39.8049 9.42965 39.8049 12.874C39.8049 16.3103 38.4605 19.545 36.0147 21.981C33.5689 24.4171 30.3295 25.7561 26.8713 25.7561H12.9335C9.48352 25.7561 6.23596 24.4171 3.79017 21.981C1.34438 19.545 0 16.3103 0 12.874C0 9.43772 1.34438 6.20308 3.79017 3.76702C6.22786 1.33903 9.47542 0 12.9335 0ZM32.1595 12.8821C32.1595 9.9056 29.7218 7.47761 26.7334 7.47761C23.745 7.47761 21.3073 9.9056 21.3073 12.8821C21.3073 15.8586 23.745 18.2866 26.7334 18.2866C29.7218 18.2866 32.1595 15.8586 32.1595 12.8821ZM18.8211 12.8821C18.8211 8.52624 22.3683 5.00121 26.7334 5.00121C31.1067 5.00121 34.6458 8.52624 34.6458 12.8821C34.6458 17.238 31.0986 20.763 26.7334 20.763C22.3602 20.763 18.8211 17.2299 18.8211 12.8821Z"
+          fill="white"
+        />
+      </svg>
+    </div>
+    <div class="container">
+      <h1>Welcome to Backend Pair Programming Nginx static file</h1>
+    </div>
+  </section>
+</body>
