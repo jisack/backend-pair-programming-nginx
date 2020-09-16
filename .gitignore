@@ -1,2 +1,5 @@
 user-service/node_modules
 blog-service/node_modules
+
+blog-service/uploads/*
+!blog-service/uploads/.keep
